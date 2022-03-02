@@ -45,7 +45,7 @@ NUMBER_DESCRIPTIONS: list[OverkizNumberDescription] = [
         icon="mdi:shower-head",
         command=OverkizCommand.SET_EXPECTED_NUMBER_OF_SHOWER,
         min_value=2,
-        max_value=4,
+        max_value=5,
         entity_category=EntityCategory.CONFIG,
     ),
     # SomfyHeatingTemperatureInterface
